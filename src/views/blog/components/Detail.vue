@@ -195,6 +195,7 @@ export default {
     },
     setDefault() {
       this.$refs.postForm.resetFields()
+      this.postForm.contents = ''
     },
     setData(data) {
       const {
